@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define YES cout << "YES";
-#define NO cout << "NO";
+#define YES cout << "YES"<<nn;
+#define NO cout << "NO"<<nn;
 #define ll long long
 #define ull unsigned long long
 #define nn '\n'
@@ -29,6 +29,10 @@ void Out(const vel &v) {
         cout << i << " ";
     }
     cout << nn;
+}
+ll lcm(ll a, ll b) 
+{
+    return (a / __gcd(a, b)) * b;
 }
 
 int solve() {
